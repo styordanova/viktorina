@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Викторина - Тела и Вещества</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="hero">
+        <img src="znayko.png" alt="Знайко" id="hero-img">
+        <div class="points">Точки: <span id="points">0</span></div>
+    </div>
+    <div id="quiz">
+        <div class="question" id="question"></div>
+        <div class="answers" id="answers"></div>
+        <button id="next-btn" onclick="nextQuestion()">Следващ въпрос</button>
+    </div>
+    <div id="result"></div>
+</div>
+
+</body>
+</html>
